@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+html{
+    height: 100%;
+}
+
+body {
+    background-color: #F1F3F5;
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+/* ---------------------------------------- Main ------------------------------------------------ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+    width: 80%;
+    height: 95%;
+}
+
+.Superiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+}
+
+.coluna-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 13.488%;
+}
+
+.info-coluna-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-left: 8.621%;
+    border-radius: 0.8rem;
+    height: 17.647%;
+    width: 100%;
+}
+
+.coluna-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 44.186%;
+}
+
+.coluna-2-superiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info-coluna-2-superiores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 0.8rem;
+    height: 12.941%;
+    width: 26%;
+}
+
+.coluna-2-inferiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0.8rem;
+    height: 82.941%;
+    width: 100%;
+}
+
+.coluna-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 29.767%;
+    background-color: white;
+    border-radius: 0.8rem;
+    padding-left: 3.147%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.info-coluna-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-empresa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 2%;
+}
+
+.Inferiores{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 35%;
+    border-radius: 0.8rem;
+}
+
+h3{
+    font-size: 50%;
+    font-weight: 870;
+    color: #AFBDC5;
+    margin-bottom: 2%;
+}
+
+h2{
+    font-size: 100%;
+    font-weight: 550;
+    color: #365B6D;
+}
+
+h4{
+    font-size: 55%;
+    font-weight: 870;
+    color: #AFBDC5;
+}
+
+h5{
+    font-size: 90%;
+    font-weight: 550;
+    color: #365B6D;
+}
+
+.img_logo{
+    width: 100%;
+    height: 11.764%;
+}
